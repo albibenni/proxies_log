@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "NodeNext" /* Specify what module code is generated. */,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true /* Include modules imported with .json extension. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "baseUrl": "./",
+
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*",
+    "./src/zod/client/src/**/*",
+    "./src/zod/client/**/*",
+    "./src/zod/client/orval.config.cjs",
+    "./src/zod/server/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "build"]
+}
